@@ -46,7 +46,17 @@ int main(){
 
     std_1->display_std_info();
 
+
+    Student *std_2 = new Student;
+    std_2->set_name("Urwah");
+    std_2->set_marks(12);
+    std_2->set_department("Computer Engineering");
+    std_2->set_roll(11);
+
+    std_2->display_std_info();
+
     delete std_1;
+    delete std_2;
 
     return 0;
 }
